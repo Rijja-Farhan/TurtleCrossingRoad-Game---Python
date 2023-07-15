@@ -37,6 +37,6 @@ class CarManager(Turtle):
     def detect(self,all_cars,turtle):
         for cars in all_cars:
             if cars.xcor() > 0:
-             if  turtle.distance(cars) < 20:  # Adjust the value as needed
+             if  turtle.distance(cars) < 20 :   # Adjust the value as needed
                     print("Game Over")
                     return True

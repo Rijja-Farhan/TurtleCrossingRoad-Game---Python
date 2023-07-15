@@ -14,7 +14,7 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
 
     def move_up(self):
-        self.forward(40)
+        self.forward(10)
 
     #detecting the finish line
     def gameFininsh(self):
